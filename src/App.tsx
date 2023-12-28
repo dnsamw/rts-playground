@@ -1,10 +1,10 @@
 import "./App.css";
-import Exercise3 from "./components/Exercise3";
+import Exercise4 from "./components/Exercise4";
 
 function App() {
   return (
     <div className="flex flex-col">
-      <Exercise3 />
+      <Exercise4 />
     </div>
   );
 }
