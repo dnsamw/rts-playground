@@ -1,7 +1,8 @@
 import { useState } from "react";
-import "./App.css";
 
-function App() {
+type Props = {};
+
+function Exercise2({}: Props) {
   const [pizza, setPizza] = useState({
     name: "Spicy Pepperoni",
     toppings: ["Mushroom"],
@@ -30,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default Exercise2;
